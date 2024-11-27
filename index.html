@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <title>Fireline test</title>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+
+<body>
+  <header class="header section">
+    <div class="header__logo">
+      <div class="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <img src="assets/img/logo.svg" alt="Logo WiSchool" class="header__logo-img">
+    </div>
+    <nav class="header__nav">
+      <ul class="header__menu">
+        <li class="header__menu-item"><a href="#home" class="header__menu-link">Home</a></li>
+        <li class="header__menu-item"><a href="#courses" class="header__menu-link">Courses</a></li>
+        <li class="header__menu-item"><a href="#instructors" class="header__menu-link">Instructors</a></li>
+        <li class="header__menu-item"><a href="#schedules" class="header__menu-link">Schedules</a></li>
+        <li class="header__menu-item"><a href="#contact-us" class="header__menu-link">Contact Us</a></li>
+      </ul>
+    </nav>
+    <div class="header__actions">
+      <button class="header__icon">
+        <img src="assets/img/search.svg" alt="search icon">
+      </button>
+      <button class="header__action header__action--login" data-modal="login">Login</button>
+      <button class="header__action header__action--register" data-modal="register">Register</button>
+    </div>
+    <button class="header__log-in"><img src="assets/img/log-in.svg" alt="log-in"></button>
+  </header>
+
+  <main>
+    <section id="home" class="home section">
+      <div class="home__content">
+        <div class="home__about">
+          <h1 class="home__title">Quality <span>Education</span> By Any Means Necessary.</h1>
+          <button class="home__btn">Get Started</button>
+        </div>
+
+        <div class="home__image-wrapper">
+          <img src="assets/img/hero.webp" srcset="assets/img/hero.webp 1x, assets/img/hero@2x.jpg 2x" alt="women image"
+            class="home__image">
+
+          <div class="home__block home__block--left">
+            <p>Learn from best <br> <span>instructors</span> around <br> the globe</p>
+            <div class="home__instructors">
+              <img src="assets/img/instructor.png" alt="instructor">
+              <img src="assets/img/instructor.png" alt="instructor">
+              <img src="assets/img/instructor.png" alt="instructor">
+              <img src="assets/img/instructor.png" alt="instructor">
+              <img src="assets/img/instructor.png" alt="instructor">
+            </div>
+          </div>
+          <div class="home__block home__block--right">
+            <div class="home__block-icon">
+              <img src="assets/img/person-icon.svg" alt="person icon">
+            </div>
+            <p class="home__block-number">15k</p>
+            <p class="home__block-text">Amazing students around the globe</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="features">
+        <div class="features__item">
+          <div class="features__icon">
+            <img src="assets/img/features/features-1.svg" alt="Problem Solving Icon">
+          </div>
+          <p class="features__text">Problem Solving</p>
+        </div>
+        <div class="features__item">
+          <div class="features__icon">
+            <img src="assets/img/features/features-2.svg" alt="Live Chat Icon">
+          </div>
+          <p class="features__text">Live Chat</p>
+        </div>
+        <div class="features__item">
+          <div class="features__icon">
+            <img src="assets/img/features/features-3.svg" alt="Group Reading Icon">
+          </div>
+          <p class="features__text">Group Reading</p>
+        </div>
+        <div class="features__item">
+          <div class="features__icon">
+            <img src="assets/img/features/features-4.svg" alt="10k Courses Icon">
+          </div>
+          <p class="features__text">10k Courses</p>
+        </div>
+        <div class="features__item">
+          <div class="features__icon">
+            <img src="assets/img/features/features-5.svg" alt="Hand-on Activities Icon">
+          </div>
+          <p class="features__text">Hand-on Activities</p>
+        </div>
+      </div>
+
+    </section>
+
+    <section id="courses" class="courses section">
+      <div class="section__header">
+        <h2 class="section__title">Choose favourite course from top cartegories</h2>
+        <button class="btn-see">See all</button>
+      </div>
+
+      <div class="courses__slider">
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <a href="#" class="swiper-slide">
+              <img src="assets/img/favourite-course/slide-1.webp"
+                srcset="assets/img/favourite-course/slide-1.webp 1x, assets/img/favourite-course/slide-1@2x.webp 2x"
+                alt="Slide 1">
+              <h3>Marketing</h3>
+            </a>
+            <a href="#" class="swiper-slide">
+              <img src="assets/img/favourite-course/slide-2.webp"
+                srcset="assets/img/favourite-course/slide-2.webp 1x, assets/img/favourite-course/slide-2@2x.webp 2x"
+                alt="Slide 2">
+              <h3>Design</h3>
+            </a>
+            <a href="#" class="swiper-slide">
+              <img src="assets/img/favourite-course/slide-3.webp"
+                srcset="assets/img/favourite-course/slide-3.webp 1x, assets/img/favourite-course/slide-3@2x.webp 2x"
+                alt="Slide 3">
+              <h3>Programming</h3>
+            </a>
+            <a href="#" class="swiper-slide">
+              <img src="assets/img/favourite-course/slide-4.webp"
+                srcset="assets/img/favourite-course/slide-4.webp 1x, assets/img/favourite-course/slide-4@2x.webp 2x"
+                alt="Slide 4">
+              <h3>Technology</h3>
+            </a>
+            <a href="#" class="swiper-slide">
+              <img src="assets/img/favourite-course/slide-5.webp"
+                srcset="assets/img/favourite-course/slide-5.webp 1x, assets/img/favourite-course/slide-5@2x.webp 2x"
+                alt="Slide 5">
+              <h3>Cooking</h3>
+            </a>
+            <a href="#" class="swiper-slide">
+              <img src="assets/img/favourite-course/slide-6.webp"
+                srcset="assets/img/favourite-course/slide-6.webp 1x, assets/img/favourite-course/slide-6@2x.webp 2x"
+                alt="Slide 6">
+              <h3>Health and Care</h3>
+            </a>
+            <a href="#" class="swiper-slide">
+              <img src="assets/img/favourite-course/slide-7.webp"
+                srcset="assets/img/favourite-course/slide-7.webp 1x, assets/img/favourite-course/slide-7@2x.webp 2x"
+                alt="Slide 7">
+              <h3>Photography</h3>
+            </a>
+          </div>
+
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </div>
+
+    </section>
+
+    <section id="popular" class="popular section">
+      <div class="section__header">
+        <h2 class="section__title">Most Popular courses</h2>
+        <button class="btn-sort">
+          <img src="assets/img/arrow-down.svg" alt="arrow down">
+          Sort by
+        </button>
+      </div>
+
+      <div class="popular__blocks">
+        <a href="#" class="popular__block">
+          <img src="assets/img/popular/popular-1.webp" alt="Learn Marketing">
+          <div class="popular__content">
+            <div class="popular__desc">
+              <h3 class="popular__title">Learn Marketing from Top Instructors.</h3>
+              <div class="popular__rating">
+                <img src="assets/img/rating.svg" alt="star icon">
+                <p>4.5</p>
+              </div>
+            </div>
+            <div class="popular__footer">
+              <div class="popular__info">
+                <p class="popular__time">6 weeks</p>
+                <p class="popular__count"><img src="assets/img/popular-icon.svg" alt="group icon"> 1.5k Students</p>
+              </div>
+              <p class="popular__price">30.5$</p>
+            </div>
+          </div>
+        </a>
+
+        <a href="#" class="popular__block">
+          <img src="assets/img/popular/popular-2.webp" alt="Front-end development is not hard">
+          <div class="popular__content">
+            <div class="popular__desc">
+              <h3 class="popular__title">Front-end development is not hard as you think</h3>
+              <div class="popular__rating">
+                <img src="assets/img/rating.svg" alt="star icon">
+                <p>4.5</p>
+              </div>
+            </div>
+            <div class="popular__footer">
+              <div class="popular__info">
+                <p class="popular__time">6 weeks</p>
+                <p class="popular__count"><img src="assets/img/popular-icon.svg" alt="group icon"> 1.5k Students</p>
+              </div>
+              <p class="popular__price">30.5$</p>
+            </div>
+          </div>
+        </a>
+
+        <a href="#" class="popular__block">
+          <img src="assets/img/popular/popular-3.webp" alt="Everything you need to know in UX">
+          <div class="popular__content">
+            <div class="popular__desc">
+              <h3 class="popular__title">Everything you need to know in UX</h3>
+              <div class="popular__rating">
+                <img src="assets/img/rating.svg" alt="star icon">
+                <p>4.5</p>
+              </div>
+            </div>
+          </div>
+          <div class="popular__footer">
+            <div class="popular__info">
+              <p class="popular__time">6 weeks</p>
+              <p class="popular__count"><img src="assets/img/popular-icon.svg" alt="group icon"> 1.5k Students</p>
+            </div>
+            <p class="popular__price">30.5$</p>
+          </div>
+        </a>
+
+        <a href="#" class="popular__block">
+          <img src="assets/img/popular/popular-4.webp" alt="Learn photography with ease">
+          <div class="popular__content">
+            <div class="popular__desc">
+              <h3 class="popular__title">Learn photography with ease</h3>
+              <div class="popular__rating">
+                <img src="assets/img/rating.svg" alt="star icon">
+                <p>4.5</p>
+              </div>
+            </div>
+            <div class="popular__footer">
+              <div class="popular__info">
+                <p class="popular__time">6 weeks</p>
+                <p class="popular__count"><img src="assets/img/popular-icon.svg" alt="group icon"> 1.5k Students</p>
+              </div>
+              <p class="popular__price">30.5$</p>
+            </div>
+          </div>
+        </a>
+
+        <a href="#" class="popular__block">
+          <img src="assets/img/popular/popular-5.webp" alt="Be a pro in data analysis">
+          <div class="popular__content">
+            <div class="popular__desc">
+              <h3 class="popular__title">Be a pro in data analysis</h3>
+              <div class="popular__rating">
+                <img src="assets/img/rating.svg" alt="star icon">
+                <p>4.5</p>
+              </div>
+            </div>
+            <div class="popular__footer">
+              <div class="popular__info">
+                <p class="popular__time">6 weeks</p>
+                <p class="popular__count"><img src="assets/img/popular-icon.svg" alt="group icon"> 1.5k Students</p>
+              </div>
+              <p class="popular__price">30.5$</p>
+            </div>
+          </div>
+        </a>
+
+        <a href="#" class="popular__block">
+          <img src="assets/img/popular/popular-6.webp" alt="Ethical Harking is not hard as you think ">
+          <div class="popular__content">
+            <div class="popular__desc">
+              <h3 class="popular__title">Ethical Harking is not hard as you think </h3>
+              <div class="popular__rating">
+                <img src="assets/img/rating.svg" alt="star icon">
+                <p>4.5</p>
+              </div>
+            </div>
+            <div class="popular__footer">
+              <div class="popular__info">
+                <p class="popular__time">6 weeks</p>
+                <p class="popular__count"><img src="assets/img/popular-icon.svg" alt="group icon"> 1.5k Students</p>
+              </div>
+              <p class="popular__price">30.5$</p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <div class="modal" id="modal">
+    <div class="modal__dialog">
+    </div>
+  </div>
+
+  <script src="assets/main.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</body>
+
+</html>
